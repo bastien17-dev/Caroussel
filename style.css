@@ -1,0 +1,54 @@
+.body__div {
+  position: relative;
+  top: 100px;
+  left: 200px;
+  width: 300px;
+  height: 300px;
+}
+
+.body__div--conteneur {
+  display: flex;
+  width: 1800px;
+  transition: transform 1s ease-in-out;
+}
+
+.body__div--element {
+  width: 300px;
+  height: 300px;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
+
+.first {
+  background-color: aqua;
+}
+.second {
+  background-color: yellow;
+}
+.third {
+  background-color: red;
+}
+.fourth {
+  background-color: greenyellow;
+}
+.fifth {
+  background-color: black;
+}
+.sixth {
+  background-color: blueviolet;
+}
+
+.button {
+  position: absolute;
+  top: 250px;
+  border: 1px solid black;
+}
+
+.prev {
+  left: 150px;
+}
+
+.next {
+  left: 550px;
+}
