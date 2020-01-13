@@ -4,6 +4,7 @@
   left: 200px;
   width: 300px;
   height: 300px;
+  overflow: hidden;
 }
 
 .body__div--conteneur {
